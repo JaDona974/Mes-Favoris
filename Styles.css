@@ -1,0 +1,308 @@
+/* GENERAL */
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+}
+
+
+
+.wrapper
+{
+    width: 940px;
+    padding: 0 10px;
+    margin: 0px auto;
+}
+li
+{
+    list-style: none;
+}
+
+
+/* HEADER */
+header
+{
+    height:185px;
+    width: 940px;
+    padding-top:40px;
+    padding-bottom: 0px;
+    margin: 0px auto;
+    background-color: #ddd;
+    
+}
+h1
+{
+    font-size:60px;
+    font-weight: normal;
+    font-family:"Lobster", cursive;
+    color:#444;
+    width:280px;
+    padding: 0px 10px;
+    margin: 30px 40px;
+    border: 4px dashed #3CC7BA;
+    border-radius: 15px;
+    display: inline-block;
+    
+}
+header div
+{
+    width: 290px;
+    height:185px;
+    float:right;
+    margin-right: 40px
+}
+
+/* NAVIGATION */
+#navigation nav
+{
+    text-align: center;
+    padding:10px;
+    background-color:#999
+}
+#navigation nav ul li
+{
+    display:inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+#navigation nav ul li a
+{
+    margin:10px 0;
+    padding:5px;
+    border: 3px solid rgba(255,255,255,0);
+    border-radius: 5px;
+    text-decoration: none;
+    color:#333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#navigation nav ul li a:hover
+{
+    
+    border: 3px solid #444;
+    border-radius: 5px;
+    color:rgba(255,255,255,0.8);
+    background-color:#3CC7BA;
+    
+}
+
+/* MAIN IMAGE */
+
+#main-image 
+{
+    height:250px;
+    width:940px;
+    margin:5px auto;
+    background-color:#fff;
+    text-align: center;
+}
+
+
+/* CONTENT TITLE*/
+.section-title /* div contenant h2 et img-logo*/
+{
+    background-color:#eee;
+    height:70px;
+    width:940px;
+    border-radius:3px 3px 0 0;
+}
+h2 /* Section Titles */
+{
+    
+    text-align: center;
+    width:300px;
+    height:30px;
+    margin:10px;;
+    border-bottom:2px solid #444;
+    color:#444;
+    
+    display: inline-block;
+    
+}
+.section-logo /* image */
+{ 
+    
+    margin:10px;
+    margin-right: 250px;
+    vertical-align: middle;
+    
+    padding-top:0px;
+    height:50px;
+    width:50px;
+    
+    
+}
+.section-logo:first-child
+{
+    margin-right:0;
+    margin-left:251px;
+}
+
+/* CONTENT LINK*/
+.section-link
+{
+    background-color: #ddd;
+    text-align: center; /* sur le parent de article (contenant inline-block) pour centrer les inline-block */
+    width:920px;
+    height: 110px;
+    margin-bottom: 5px;
+    border-radius: 0 0 3px 3px;
+    padding:10px;
+    padding-top:20px;
+    
+}
+article
+{
+    height:106px;
+    width:206px; 
+    
+    display: inline-block;
+    margin:0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+article img
+{
+    height:100px;
+    width:200px;
+    border: 3px solid rgba(255,255,255,0);
+    border-radius:10px;
+}
+article img:hover
+{
+    border: 3px dashed #444;
+    border-radius:10px;
+}
+.overlay
+{
+    position: relative;   
+}
+
+
+.label
+{
+    width: 190px;
+    height: 20px;
+    background-color:rgba(60, 199, 186, .8);
+    border-radius: 6px 6px 0 0;
+    position:absolute;
+    top: 2px;
+    bottom:20px;
+    left:3px;
+    font-size:15px;
+    font-weight:bold;
+    
+    padding:2px 5px 2px 5px;
+}
+
+/* Development SECTION */
+#development .section-link
+{
+    height:220px;
+}
+
+#browser .label
+{
+    background-color:rgba(106, 190, 48, .8);
+}
+#online-lesson .label
+{
+    background-color:rgba(91, 110, 225, .8);
+}
+#development .label
+{
+    background-color:rgba(118, 66, 138, .8);
+}
+#mail .label
+{
+    background-color:rgba(155, 173, 183, .8);
+}
+#loisir .label
+{
+    background-color:rgba(172, 50, 50, .8);
+}
+#loisir #jvc
+{
+    background-color:rgba(189, 91, 91);
+}
+#etc .label
+{
+    background-color:rgba(251, 242, 54, .8);
+}
+#etc #hb
+{
+    background-color:rgb(252, 245, 94);
+}
+
+
+
+/* FOOTER */
+footer
+{
+    height: 150px;
+    width:940px;
+    margin:0 auto;
+    background-color:#3CC7BA;
+    text-align:center;
+    
+}
+footer h1
+{
+    font-size:50px;
+    font-weight: normal;
+    font-family:"Lobster", cursive;
+    color:#fff;
+    width:230px;
+    padding: 0px 10px;
+    margin: 30px 40px 10px 40px;
+    border: 4px dashed #444;
+    border-radius: 15px;
+    display: inline-block;
+    
+}
+footer p
+{
+    margin-left:00px;
+    padding-left:420px;
+    font-weight:bold;
+    font-size:15px;
+}
+footer span
+{
+    color:rgba(255,255,255,0.8);    
+    font-family:"Lobster", cursive;
+    font-weight:normal;
+    padding-right:7px;
+    font-size:20px;
+    
+}
+
+#Version
+{
+    font-size:10px;
+    font-weight: normal;
+    margin-right:20px;
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
